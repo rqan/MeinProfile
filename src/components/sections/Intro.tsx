@@ -91,7 +91,7 @@ export function Intro() {
                 <span className="text-lightMuted dark:text-darkMuted uppercase tracking-widest text-[10px]">
                   Hobi
                 </span>
-                <span>Touring</span>
+                <span>Renang & Traveling</span>
               </div>
               <div className="flex justify-between border-b-minimal border-lightBorder dark:border-darkBorder pb-2.5">
                 <span className="text-lightMuted dark:text-darkMuted uppercase tracking-widest text-[10px]">
