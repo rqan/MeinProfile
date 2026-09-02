@@ -29,6 +29,12 @@ export function Hero() {
             Instagram <span className="text-[8px] transform rotate-45">↑</span>
           </a>
           <a
+            href="https://wa.me/6287777358853"
+            className="hover:text-lightMain dark:hover:text-darkMain transition-colors flex items-center gap-1"
+          >
+            Whatsapp <span className="text-[8px] transform rotate-45">↑</span>
+          </a>
+          <a
             href="https://www.linkedin.com/in/regan-dzulfikar-899a093a2/"
             className="hover:text-lightMain dark:hover:text-darkMain transition-colors flex items-center gap-1"
           >
