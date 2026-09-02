@@ -15,18 +15,18 @@ export function Skills() {
             <ul className="space-y-6 text-sm font-medium">
               <li className="flex justify-between items-center border-b-minimal border-lightBorder dark:border-darkBorder pb-4">
                 <span className="text-lightMain dark:text-darkMain">
-                  HTML, CSS & Tailwind
+                  HTML, CSS & Vanilla
                 </span>
                 <span className="text-[10px] tracking-widest text-lightMuted dark:text-darkMuted">
-                  95%
+                  85%
                 </span>
               </li>
               <li className="flex justify-between items-center border-b-minimal border-lightBorder dark:border-darkBorder pb-4">
                 <span className="text-lightMain dark:text-darkMain">
-                  JavaScript / React
+                 Framework Laravel, Codeigniter, MySQL
                 </span>
                 <span className="text-[10px] tracking-widest text-lightMuted dark:text-darkMuted">
-                  85%
+                  72%
                 </span>
               </li>
             </ul>
@@ -100,7 +100,7 @@ export function Skills() {
                     />
                   </svg>
                   <div className="absolute inset-0 flex items-center justify-center text-xs font-bold text-lightMain dark:text-darkMain">
-                    85%
+                    89%
                   </div>
                 </div>
                 <span className="mt-4 text-[10px] font-bold tracking-widest uppercase text-lightMuted dark:text-darkMuted">

@@ -6,8 +6,8 @@ export function Hero() {
       {/* Main Content (Huge Typography) */}
       <div className="flex-1 flex flex-col justify-center mt-0">
         <h1 className="display-font text-[25vw] md:text-[20vw] flex flex-col ml-0 md:ml-10 text-lightMain dark:text-darkMain">
-          <span>RDEWA</span>
-          <span>STUDIO</span>
+          <span>REGAN</span>
+          <span>DEWA</span>
         </h1>
       </div>
 
@@ -50,7 +50,7 @@ export function Hero() {
           <ScrollDrum />
 
           <p>ALL RIGHTS RESERVED</p>
-          <p>RDEWA STUDIO 2026©</p>
+          <p>REGANDEWA 2026©</p>
         </div>
       </div>
     </section>

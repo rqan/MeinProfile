@@ -81,6 +81,30 @@ export function Education() {
               </p>
             </div>
           </div>
+          {/* Edu 4 */}
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center py-10 border-b-minimal border-lightBorder dark:border-darkBorder gap-4 md:gap-0 group cursor-pointer relative overflow-hidden">
+            <div className="absolute left-0 opacity-0 -translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500 ease-out text-lightMain dark:text-darkMain hidden md:block">
+              ⟶
+            </div>
+            
+            <div className="flex flex-col transition-transform duration-500 ease-out md:group-hover:translate-x-8">
+              <h3 className="text-3xl md:text-5xl display-font text-lightMain dark:text-darkMain mb-2">
+                SDIT Badrussalam
+              </h3>
+              <p className="text-sm font-semibold tracking-widest text-lightMuted dark:text-darkMuted uppercase">
+                AKIDAH & AKHLAQ
+              </p>
+            </div>
+            
+            <div className="text-right flex flex-col md:items-end transition-transform duration-500 ease-out md:group-hover:-translate-x-4">
+              <p className="text-lg md:text-xl font-medium text-lightMain dark:text-darkMain">
+                2016 - 2019
+              </p>
+              <p className="text-xs text-lightMuted dark:text-darkMuted max-w-xs mt-2 font-medium leading-relaxed md:text-right">
+                Mengenal konsep keimanan dasar, tata cara ibadah yang benar, hafalan doa, serta pembiasaan membaca dan menghafal ayat suci Al-Qur'an
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -18,7 +18,7 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-  title: "RDewaStudio - Portfolio",
+  title: "Regan Dewa - Portfolio",
   description: "Portfolio of Regan Dewa Dzulfikar - Independent Developer",
 };
 

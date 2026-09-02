@@ -41,14 +41,14 @@ export function Certificates() {
               <div className="group flex flex-col md:flex-row justify-between items-start md:items-center py-6 border-b-minimal border-lightBorder dark:border-darkBorder cursor-pointer">
                 <div className="transition-transform duration-500 ease-out md:group-hover:translate-x-4">
                   <h4 className="text-lg md:text-xl font-bold text-lightMain dark:text-darkMain">
-                    Judul Webinar
+                    TKA MASTERCLASS: Strategi Tembus PTN Impian 2027
                   </h4>
                   <p className="text-xs text-lightMuted dark:text-darkMuted mt-1 font-medium">
-                    Penyelenggara
+                    Peserta
                   </p>
                 </div>
                 <p className="text-sm font-medium text-lightMuted dark:text-darkMuted mt-2 md:mt-0 transition-transform duration-500 ease-out md:group-hover:-translate-x-4">
-                  2025
+                  2026
                 </p>
               </div>
             </div>
@@ -63,14 +63,14 @@ export function Certificates() {
               <div className="group flex flex-col md:flex-row justify-between items-start md:items-center py-6 border-b-minimal border-lightBorder dark:border-darkBorder cursor-pointer">
                 <div className="transition-transform duration-500 ease-out md:group-hover:translate-x-4">
                   <h4 className="text-lg md:text-xl font-bold text-lightMain dark:text-darkMain">
-                    Judul Seminar
+                    Ngobrol Bareng Peternak Millenium
                   </h4>
                   <p className="text-xs text-lightMuted dark:text-darkMuted mt-1 font-medium">
-                    Penyelenggara
+                    Peserta
                   </p>
                 </div>
                 <p className="text-sm font-medium text-lightMuted dark:text-darkMuted mt-2 md:mt-0 transition-transform duration-500 ease-out md:group-hover:-translate-x-4">
-                  2025
+                  2022
                 </p>
               </div>
             </div>
