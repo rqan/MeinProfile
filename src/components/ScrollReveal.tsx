@@ -48,13 +48,22 @@ export function ScrollReveal() {
         if (entry.isIntersecting) {
           if (!entry.target.classList.contains("is-visible")) {
             const index = activeEntries.indexOf(entry);
-            setTimeout(() => {
-              entry.target.classList.add("is-visible");
-            }, Math.max(0, index) * 75); // 75ms stagger
             
-            // Unobserve the element once it has been revealed to prevent 
-            // flickering/glitching when scrolling up and down near the threshold
-            revealObserver.unobserve(entry.target);
+            // Set a data attribute to prevent race conditions with timeout
+            entry.target.setAttribute("data-intersecting", "true");
+            
+            setTimeout(() => {
+              if (entry.target.getAttribute("data-intersecting") === "true") {
+                entry.target.classList.add("is-visible");
+              }
+            }, Math.max(0, index) * 75); // 75ms stagger
+          }
+        } else {
+          entry.target.setAttribute("data-intersecting", "false");
+          // Only remove the class (reset animation) if it leaves from the bottom of the screen.
+          // This prevents the intersection loop glitch when leaving from the top of the screen.
+          if (entry.boundingClientRect.top > 0) {
+            entry.target.classList.remove("is-visible");
           }
         }
       });
