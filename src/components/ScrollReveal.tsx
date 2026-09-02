@@ -51,10 +51,11 @@ export function ScrollReveal() {
             setTimeout(() => {
               entry.target.classList.add("is-visible");
             }, Math.max(0, index) * 75); // 75ms stagger
+            
+            // Unobserve the element once it has been revealed to prevent 
+            // flickering/glitching when scrolling up and down near the threshold
+            revealObserver.unobserve(entry.target);
           }
-        } else {
-          // Remove the class when out of view so it animates again when scrolling back
-          entry.target.classList.remove("is-visible");
         }
       });
     }, observerOptions);

@@ -34,12 +34,19 @@ export function Hero() {
           >
             LinkedIn <span className="text-[8px] transform rotate-45">↑</span>
           </a>
+          <a
+            href="https://github.com/rqan"
+            className="hover:text-lightMain dark:hover:text-darkMain transition-colors flex items-center gap-1"
+          >
+            Github <span className="text-[8px] transform rotate-45">↑</span>
+          </a>
 
           <div className="mt-8">
             <p>INDEPENDENT DEVELOPER</p>
             <p>SCROLL TO EXPLORE ↓</p>
           </div>
         </div>
+        
 
         <div className="hidden md:block absolute left-1/2 bottom-0 transform -translate-x-1/2 text-center pb-2">
           <p>PORTFOLIO & CURRICULUM VITAE</p>
