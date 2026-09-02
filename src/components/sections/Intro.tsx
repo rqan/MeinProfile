@@ -52,9 +52,9 @@ export function Intro() {
                 <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0IiBoZWlnaHQ9IjQiPjxyZWN0IHdpZHRoPSI0IiBoZWlnaHQ9IjEiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xKSIvPjwvc3ZnPg==')] opacity-40 mix-blend-overlay pointer-events-none"></div>
 
                 {/* Brutalist badge */}
-                <div className="absolute bottom-1.5 right-1.5 bg-lightMain dark:bg-darkMain text-lightBg dark:text-darkBg text-[7px] font-bold tracking-widest uppercase px-1.5 py-0.5 pointer-events-none">
+                {/* <div className="absolute bottom-1.5 right-1.5 bg-lightMain dark:bg-darkMain text-lightBg dark:text-darkBg text-[7px] font-bold tracking-widest uppercase px-1.5 py-0.5 pointer-events-none">
                   FIG. 01
-                </div>
+                </div> */}
               </div>
 
               <div className="text-right pb-1">
@@ -86,6 +86,12 @@ export function Intro() {
                   Kelamin
                 </span>
                 <span>Laki-laki</span>
+              </div>
+              <div className="flex justify-between border-b-minimal border-lightBorder dark:border-darkBorder pb-2.5">
+                <span className="text-lightMuted dark:text-darkMuted uppercase tracking-widest text-[10px]">
+                  Hobi
+                </span>
+                <span>Touring</span>
               </div>
               <div className="flex justify-between border-b-minimal border-lightBorder dark:border-darkBorder pb-2.5">
                 <span className="text-lightMuted dark:text-darkMuted uppercase tracking-widest text-[10px]">
