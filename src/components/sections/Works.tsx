@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export function Works() {
   return (
     <section
@@ -11,10 +13,13 @@ export function Works() {
         <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-16">
           {/* Project 1 */}
           <a href="https://github.com/rqan/mantapdeh" className="group block">
-            <div className="w-full aspect-[4/3] bg-[#E5E5E5] dark:bg-[#1E1E1E] mb-6 overflow-hidden flex items-center justify-center p-8 transition-colors">
-              <span className="display-font text-4xl text-lightBorder dark:text-darkBorder group-hover:scale-110 transition-transform duration-700">
-                01
-              </span>
+            <div className="w-full aspect-[4/3] bg-[#E5E5E5] dark:bg-[#1E1E1E] mb-6 overflow-hidden flex items-center justify-center relative transition-colors">
+              <Image 
+                src="/projects/rumah-inovasi.png" 
+                alt="Rumah Inovasi"
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-700"
+              />
             </div>
             <h4 className="text-xl font-bold text-lightMain dark:text-darkMain mb-2">
               Rumah Inovasi
@@ -24,11 +29,14 @@ export function Works() {
             </p>
           </a>
           {/* Project 2 */}
-          <a href="https://github.com/rqan/mantapdeh" className="group block">
-            <div className="w-full aspect-[4/3] bg-[#E5E5E5] dark:bg-[#1E1E1E] mb-6 overflow-hidden flex items-center justify-center p-8 transition-colors">
-              <span className="display-font text-4xl text-lightBorder dark:text-darkBorder group-hover:scale-110 transition-transform duration-700">
-                02
-              </span>
+          <a href="https://eny-leather.onrender.com/" target="_blank" rel="noopener noreferrer" className="group block">
+            <div className="w-full aspect-[4/3] bg-[#E5E5E5] dark:bg-[#1E1E1E] mb-6 overflow-hidden flex items-center justify-center relative transition-colors">
+              <Image 
+                src="/projects/toko-kulit.png" 
+                alt="Toko Kulit"
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-700"
+              />
             </div>
             <h4 className="text-xl font-bold text-lightMain dark:text-darkMain mb-2">
               Toko Kulit
@@ -38,17 +46,37 @@ export function Works() {
             </p>
           </a>
           {/* Project 3 */}
-          <a href="https://github.com/rqan/Hotel-Management-System" className="group block">
-            <div className="w-full aspect-[4/3] bg-[#E5E5E5] dark:bg-[#1E1E1E] mb-6 overflow-hidden flex items-center justify-center p-8 transition-colors">
-              <span className="display-font text-4xl text-lightBorder dark:text-darkBorder group-hover:scale-110 transition-transform duration-700">
-                03
-              </span>
+          <a href="https://github.com/rqan/MusiXoB" className="group block">
+            <div className="w-full aspect-[4/3] bg-[#E5E5E5] dark:bg-[#1E1E1E] mb-6 overflow-hidden flex items-center justify-center relative transition-colors">
+              <Image 
+                src="/projects/musixob.png" 
+                alt="MusiXoB"
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-700"
+              />
             </div>
             <h4 className="text-xl font-bold text-lightMain dark:text-darkMain mb-2">
-              Hotel
+              MusiXoB
             </h4>
             <p className="text-sm text-lightMuted dark:text-darkMuted font-medium">
-              Website Manajemen Hotel
+              Aplikasi Pemutar Musik
+            </p>
+          </a>
+          {/* Project 4 */}
+          <a href="https://rdewarental.rf.gd/" target="_blank" rel="noopener noreferrer" className="group block">
+            <div className="w-full aspect-[4/3] bg-[#E5E5E5] dark:bg-[#1E1E1E] mb-6 overflow-hidden flex items-center justify-center relative transition-colors">
+              <Image 
+                src="/projects/rdewa-rental.png" 
+                alt="RDewa Rental"
+                fill
+                className="object-cover group-hover:scale-105 transition-transform duration-700"
+              />
+            </div>
+            <h4 className="text-xl font-bold text-lightMain dark:text-darkMain mb-2">
+              RDewa Rental
+            </h4>
+            <p className="text-sm text-lightMuted dark:text-darkMuted font-medium">
+              Website Rental
             </p>
           </a>
         </div>
