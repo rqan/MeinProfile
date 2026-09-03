@@ -18,7 +18,7 @@ export function Works() {
                 src="/projects/rumah-inovasi.png" 
                 alt="Rumah Inovasi"
                 fill
-                className="object-cover group-hover:scale-105 transition-transform duration-700"
+                className="object-cover object-center scale-110 grayscale contrast-110 group-hover:grayscale-0 group-hover:contrast-100 group-hover:scale-125 transition-all duration-700"
               />
             </div>
             <h4 className="text-xl font-bold text-lightMain dark:text-darkMain mb-2">
@@ -35,7 +35,7 @@ export function Works() {
                 src="/projects/toko-kulit.png" 
                 alt="Toko Kulit"
                 fill
-                className="object-cover group-hover:scale-105 transition-transform duration-700"
+                className="object-cover object-center scale-110 grayscale contrast-110 group-hover:grayscale-0 group-hover:contrast-100 group-hover:scale-125 transition-all duration-700"
               />
             </div>
             <h4 className="text-xl font-bold text-lightMain dark:text-darkMain mb-2">
@@ -52,7 +52,7 @@ export function Works() {
                 src="/projects/musixob.png" 
                 alt="MusiXoB"
                 fill
-                className="object-cover group-hover:scale-105 transition-transform duration-700"
+                className="object-cover object-center scale-110 grayscale contrast-110 group-hover:grayscale-0 group-hover:contrast-100 group-hover:scale-125 transition-all duration-700"
               />
             </div>
             <h4 className="text-xl font-bold text-lightMain dark:text-darkMain mb-2">
@@ -69,7 +69,7 @@ export function Works() {
                 src="/projects/rdewa-rental.png" 
                 alt="RDewa Rental"
                 fill
-                className="object-cover group-hover:scale-105 transition-transform duration-700"
+                className="object-cover object-center scale-110 grayscale contrast-110 group-hover:grayscale-0 group-hover:contrast-100 group-hover:scale-125 transition-all duration-700"
               />
             </div>
             <h4 className="text-xl font-bold text-lightMain dark:text-darkMain mb-2">
