@@ -29,7 +29,7 @@ export function Works() {
             </p>
           </a>
           {/* Project 2 */}
-          <a href="https://eny-leather.onrender.com/" target="_blank" rel="noopener noreferrer" className="group block">
+          <a href="https://toko-rafa.onrender.com/" target="_blank" rel="noopener noreferrer" className="group block">
             <div className="w-full aspect-[4/3] bg-[#E5E5E5] dark:bg-[#1E1E1E] mb-6 overflow-hidden flex items-center justify-center relative transition-colors">
               <Image 
                 src="/projects/toko-kulit.png" 
