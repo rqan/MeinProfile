@@ -27,10 +27,10 @@ export function Experience() {
             
             <div className="text-right flex flex-col md:items-end transition-transform duration-500 ease-out md:group-hover:-translate-x-4">
               <p className="text-lg md:text-xl font-medium text-lightMain dark:text-darkMain">
-                1 April 2026 — Present
+                1 April 2026 — 24 September 2026
               </p>
               <p className="text-xs text-lightMuted dark:text-darkMuted max-w-xs mt-2 font-medium leading-relaxed md:text-right">
-                Memimpin pengembangan front-end dan arsitektur UI/UX interaktif.
+                Membangun ulang aplikasi pemerintah dengan Laravel (MVC, Eloquent ORM, autentikasi dan otorisasi berbasis peran) serta mengintegrasikan library pada lapisan bisnis untuk validasi, manajemen akses, dan ekspor laporan.
               </p>
             </div>
           </div>
