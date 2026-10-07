@@ -34,16 +34,16 @@ export function ScrollDrum() {
         >
           <div className="h-[40px]"></div> {/* spacer */}
           <a href="#intro" className="block h-[40px] leading-[40px] snap-center hover:text-lightMain dark:hover:text-darkMain transition-all duration-300 opacity-60 hover:opacity-100 hover:pl-2">
-            ↓ INTRO
+            → INTRO
           </a>
           <a href="#experience" className="block h-[40px] leading-[40px] snap-center hover:text-lightMain dark:hover:text-darkMain transition-all duration-300 opacity-60 hover:opacity-100 hover:pl-2">
-            ↓ EXPERIENCE
+            → EXPERIENCE
           </a>
           <a href="#education" className="block h-[40px] leading-[40px] snap-center hover:text-lightMain dark:hover:text-darkMain transition-all duration-300 opacity-60 hover:opacity-100 hover:pl-2">
-            ↓ EDUCATION
+            → EDUCATION
           </a>
           <a href="#works" className="block h-[40px] leading-[40px] snap-center hover:text-lightMain dark:hover:text-darkMain transition-all duration-300 opacity-60 hover:opacity-100 hover:pl-2">
-            ↓ WORKS
+            → WORKS
           </a>
           <a href="#skills" className="block h-[40px] leading-[40px] snap-center hover:text-lightMain dark:hover:text-darkMain transition-all duration-300 opacity-60 hover:opacity-100 hover:pl-2">
             → SKILLS
