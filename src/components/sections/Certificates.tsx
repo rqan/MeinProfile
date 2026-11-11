@@ -10,10 +10,10 @@ export function Certificates() {
         </div>
 
         <div className="w-full space-y-16">
-          {/* Lomba / Competition */}
+          {/* Penghargaan */}
           <div>
             <h3 className="text-2xl display-font text-lightMain dark:text-darkMain mb-10">
-              COMPETITION
+              Awards
             </h3>
             <div className="space-y-0">
               <div className="group flex flex-col md:flex-row justify-between items-start md:items-center py-6 border-b-minimal border-lightBorder dark:border-darkBorder cursor-pointer">
@@ -23,6 +23,56 @@ export function Certificates() {
                   </h4>
                   <p className="text-xs text-lightMuted dark:text-darkMuted mt-1 font-medium">
                     Peserta
+                  </p>
+                </div>
+                <p className="text-sm font-medium text-lightMuted dark:text-darkMuted mt-2 md:mt-0 transition-transform duration-500 ease-out md:group-hover:-translate-x-4">
+                  2026
+                </p>
+              </div>
+            </div>
+
+            <div className="space-y-0">
+              <div className="group flex flex-col md:flex-row justify-between items-start md:items-center py-6 border-b-minimal border-lightBorder dark:border-darkBorder cursor-pointer">
+                <div className="transition-transform duration-500 ease-out md:group-hover:translate-x-4">
+                  <h4 className="text-lg md:text-xl font-bold text-lightMain dark:text-darkMain">
+                    TOEIC &#40; Score 710  &#41;
+                  </h4>
+                  <p className="text-xs text-lightMuted dark:text-darkMuted mt-1 font-medium">
+                    Peserta
+                  </p>
+                </div>
+                <p className="text-sm font-medium text-lightMuted dark:text-darkMuted mt-2 md:mt-0 transition-transform duration-500 ease-out md:group-hover:-translate-x-4">
+                  2026
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-0">
+              <div className="group flex flex-col md:flex-row justify-between items-start md:items-center py-6 border-b-minimal border-lightBorder dark:border-darkBorder cursor-pointer">
+                <div className="transition-transform duration-500 ease-out md:group-hover:translate-x-4">
+                  <h4 className="text-lg md:text-xl font-bold text-lightMain dark:text-darkMain">
+                    Sertifikasi Kompetensi &#40; Rekayasa Perangkat Lunak  &#41;
+                  </h4>
+                  <p className="text-xs text-lightMuted dark:text-darkMuted mt-1 font-medium">
+                    Peserta
+                  </p>
+                </div>
+                <p className="text-sm font-medium text-lightMuted dark:text-darkMuted mt-2 md:mt-0 transition-transform duration-500 ease-out md:group-hover:-translate-x-4">
+                  2026
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-0">
+              <div className="group flex flex-col md:flex-row justify-between items-start md:items-center py-6 border-b-minimal border-lightBorder dark:border-darkBorder cursor-pointer">
+                <div className="transition-transform duration-500 ease-out md:group-hover:translate-x-4">
+                  <h4 className="text-lg md:text-xl font-bold text-lightMain dark:text-darkMain">
+                    Melaksanakaan Kegiatan PKL di Dinas Komunikasi dan Informasi Magetan
+                  </h4>
+                  <p className="text-xs text-lightMuted dark:text-darkMuted mt-1 font-medium">
+                    Junior Web Developer
                   </p>
                 </div>
                 <p className="text-sm font-medium text-lightMuted dark:text-darkMuted mt-2 md:mt-0 transition-transform duration-500 ease-out md:group-hover:-translate-x-4">
