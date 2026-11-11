@@ -33,6 +33,9 @@ export function ScrollDrum() {
           style={{ scrollBehavior: 'auto' }}
         >
           <div className="h-[40px]"></div> {/* spacer */}
+          <a href="/services" className="block h-[40px] leading-[40px] snap-center hover:text-lightMain dark:hover:text-darkMain transition-all duration-300 opacity-60 hover:opacity-100 hover:pl-2">
+            → SERVICES
+          </a>
           <a href="#intro" className="block h-[40px] leading-[40px] snap-center hover:text-lightMain dark:hover:text-darkMain transition-all duration-300 opacity-60 hover:opacity-100 hover:pl-2">
             → INTRO
           </a>

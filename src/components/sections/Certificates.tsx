@@ -29,9 +29,7 @@ export function Certificates() {
                   2026
                 </p>
               </div>
-            </div>
 
-            <div className="space-y-0">
               <div className="group flex flex-col md:flex-row justify-between items-start md:items-center py-6 border-b-minimal border-lightBorder dark:border-darkBorder cursor-pointer">
                 <div className="transition-transform duration-500 ease-out md:group-hover:translate-x-4">
                   <h4 className="text-lg md:text-xl font-bold text-lightMain dark:text-darkMain">
@@ -45,10 +43,7 @@ export function Certificates() {
                   2026
                 </p>
               </div>
-            </div>
-          </div>
 
-          <div className="space-y-0">
               <div className="group flex flex-col md:flex-row justify-between items-start md:items-center py-6 border-b-minimal border-lightBorder dark:border-darkBorder cursor-pointer">
                 <div className="transition-transform duration-500 ease-out md:group-hover:translate-x-4">
                   <h4 className="text-lg md:text-xl font-bold text-lightMain dark:text-darkMain">
@@ -62,10 +57,7 @@ export function Certificates() {
                   2026
                 </p>
               </div>
-            </div>
-          </div>
 
-          <div className="space-y-0">
               <div className="group flex flex-col md:flex-row justify-between items-start md:items-center py-6 border-b-minimal border-lightBorder dark:border-darkBorder cursor-pointer">
                 <div className="transition-transform duration-500 ease-out md:group-hover:translate-x-4">
                   <h4 className="text-lg md:text-xl font-bold text-lightMain dark:text-darkMain">

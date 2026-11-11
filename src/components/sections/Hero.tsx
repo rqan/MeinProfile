@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ScrollDrum } from "@/components/ScrollDrum";
 
 export function Hero() {
@@ -51,6 +52,15 @@ export function Hero() {
             <p>INDEPENDENT DEVELOPER</p>
             <p>SCROLL TO EXPLORE ↓</p>
           </div>
+
+          {/* CTA Button — Digital Services */}
+          <Link
+            href="/services"
+            className="btn mt-6 inline-flex items-center gap-2 px-5 py-2.5 bg-lightMain dark:bg-darkMain text-lightBg dark:text-darkBg text-[9px] md:text-[10px] font-bold tracking-[0.2em] uppercase border border-lightMain dark:border-darkMain hover:bg-transparent hover:text-lightMain dark:hover:bg-transparent dark:hover:text-darkMain self-start"
+          >
+            Explore My Services
+            <span className="text-[10px]">↗</span>
+          </Link>
         </div>
         
 
